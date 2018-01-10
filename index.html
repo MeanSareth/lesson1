@@ -12,9 +12,11 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- GOOGLE FONT -->
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <!-- KHMER FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Content:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Preahvihear" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fasthand" rel="stylesheet">
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -24,43 +26,43 @@
 
     <div>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
-                <a class="navbar-brand" href="#"> <img class="logo" src="assets/logo-1000x1000.png" alt="logo"></a>
+                <a class="navbar-brand" href="#"> <img class="logo" src="assets/logo-1000x1000.png" alt="logo"> <span class="khmeruni">KhmerUni</span></a>
 
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#"><i class="fa fa-home" aria-hidden="true"></i>ទំព័រដើម <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i>ទំព័រដើម <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa fa-newspaper-o" aria-hidden="true"></i>ព័ត៏មាន</a>
+                            <a class="nav-link" href="news.html"><i class="fa fa-newspaper-o" aria-hidden="true"></i>ព័ត៏មាន</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa fa-film" aria-hidden="true"></i>កម្សាន្ត</a>
+                            <a class="nav-link" href="entertain.html"><i class="fa fa-film" aria-hidden="true"></i>កម្សាន្ត</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa fa-laptop" aria-hidden="true"></i>បច្ចេកវិទ្យា</a>
+                            <a class="nav-link" href="technology.html"><i class="fa fa-laptop" aria-hidden="true"></i>បច្ចេកវិទ្យា</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa fa-futbol-o" aria-hidden="true"></i>កីឡា</a>
+                            <a class="nav-link" href="sport.html"><i class="fa fa-futbol-o" aria-hidden="true"></i>កីឡា</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa fa-heartbeat" aria-hidden="true"></i>សុខភាព</a>
+                            <a class="nav-link" href="health.html"><i class="fa fa-heartbeat" aria-hidden="true"></i>សុខភាព</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa fa-book" aria-hidden="true"></i>យល់ដឹង</a>
+                            <a class="nav-link" href="knowledge.html"><i class="fa fa-book" aria-hidden="true"></i>យល់ដឹង</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa fa-book" aria-hidden="true"></i>ជីវិតនិងសង្គម</a>
+                            <a class="nav-link" href="life.html"><i class="fa fa-book" aria-hidden="true"></i>ជីវិតនិងសង្គម</a>
                         </li>
                     </ul>
-                    <form class="form-inline my-2 my-lg-0">
+                    <!-- <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="ស្វែងរក" aria-label="Search">
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">ស្វែងរក</button>
-                    </form>
+                    </form> -->
                 </div>
             </nav>
         </header>
@@ -82,8 +84,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <h2>Heading</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-                    </p>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
                     <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
                 </div>
                 <div class="col-md-4">
@@ -98,9 +99,9 @@
                         amet risus.</p>
                     <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
                 </div>
-            </div>
 
-            <hr>
+                <hr>
+            </div>
 
         </div>
         <!-- /container -->
@@ -109,7 +110,7 @@
     <footer>
         <div class="card-group">
             <div class="card">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top img-fluid" src="holder.js/450x200" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -117,7 +118,7 @@
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top img-fluid" src="holder.js/450x200" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -125,12 +126,13 @@
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top img-fluid" src="holder.js/450x200" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
+
             </div>
         </div>
     </footer>
@@ -140,6 +142,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.4/holder.min.js"></script>
 </body>
 
 </html>
